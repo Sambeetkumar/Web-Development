@@ -1,0 +1,16 @@
+body h1 {
+    font-family: 'Roboto', sans-serif;
+    text-align:left;
+    font-size: 50px;
+    font-weight: 60;
+    text-decoration: wavy underline;
+}
+body {
+    font-family: 'Noto Sans JP', sans-serif;
+    width: 80%;
+    margin: 0 auto;
+    line-height: 1.8;
+}
+footer  a {
+color: red;
+}

@@ -1,0 +1,17 @@
+html {
+    background-color: #6c757d;
+}
+.toggle{
+    display: block;
+    margin: auto;
+    margin-top: 60px;
+}
+.btn{
+    padding: 15px 30px;
+    font-size: 1.2em;
+    border-radius: 10px;
+    background-color: #ff006e;
+}
+#bulb {
+    height: 65vh;
+}

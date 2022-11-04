@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Log in</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="main">
+        <div class="form_box">
+            <div class="button_box">
+                <div id="btn"></div>
+                <button type="button" class="toggle_btn" onclick="login()">Log In</button>
+                <button type="button" class="toggle_btn" onclick="register()">Sign Up</button>
+            </div>
+            <div class="icons">
+                <img src="fb.png" alt="facebook">
+                <img src="gp.png" alt="google">
+                <img src="tw.png" alt="twitter">
+            </div>
+            <form action="/log in" class="input_group" id="log_in">
+                <input type="text" class="input-field" placeholder="User Id" required>
+                <input type="text" class="input-field" placeholder="Password" required>
+                <input type="checkbox" class="check_box"><span>Remember Password</span>
+                <button type="button" class="submit_button">Log In</button>
+            </form>
+            <form action="/log in" class="input_group" id="sign_up">
+                <input type="text" class="input-field" placeholder="User Id" required>
+                <input type="text" class="input-field" placeholder="Email Id" required>
+                <input type="text" class="input-field" placeholder="Password" required>
+                <input type="checkbox" class="check_box"><span>I agree to the terms & conditions</span>
+                <button type="button" class="submit_button">Sign Up</button>
+            </form>
+        </div>
+    </div>  
+    <script src="style.js"></script>
+</body>
+</html>

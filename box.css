@@ -1,0 +1,72 @@
+h1 {
+background-color:#219ebc;
+width: 125px;
+padding: 5px 10px;
+border: black 4px solid;
+border-radius: 15px;
+text-align: center;
+margin-left: 40%;
+}
+
+#one {
+background-color: #e63946;
+height: 250px;
+width: 250px;
+border:#03045e 5px solid ;
+padding: 20px 20px;
+border-radius:0% 30% 0% 30% ;
+}
+
+#two {
+background-color: #ee9b00;
+height: 250px;
+width: 250px;
+border: #ef476f 5px dashed;
+padding: 20px 20px;
+border-radius: 25% 0% 25% 0%;
+}
+
+#three{
+background-color: #2d6a4f;
+height: 250px;
+width: 250px;
+border: #adb5bd 5px dotted;
+padding: 20px 20px;
+border-radius: 5%;
+}
+
+button {
+background-color: blue;
+height: 60px;
+width: 120px;
+font-size: 20px;
+border: deepskyblue 5px solid;
+color:white;
+margin-left: 42%;
+border-radius: 15px;
+}
+p {
+    display: inline-block;
+    margin: 8% 0% 8% 8%;
+}
+body {
+    background-color: burlywood;
+}
+button:hover {
+    background-color: blueviolet;
+}
+button:active{
+    font-size: 15px;
+}
+section div {
+    height: 50px;
+    width: 50px;
+    background-color: #e01592;
+    margin : 5px 0px;
+    transition: margin-left 3s cubic-bezier(.29, 1.01, 1, -0.68), background-color 3s 1s;
+}
+
+section:hover div{
+    margin-left: 500px;
+    background-color: cyan;
+}
