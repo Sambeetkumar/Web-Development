@@ -90,16 +90,16 @@ h3 {
     transition: background-color 0.3s;
 }
 .btn-1 {
-    background-color: #fb8500;
     color: #fff;
+    background-color: #fb8500;
 }
 .btn-2 {
     color: #fb8500;
 }
 .btn-1:hover,
-.btn-1:active {
-    background-color: rgba(255, 255, 255, 0);
-    color: #fb8500;
+.btn-1:active{
+ background-color: transparent;
+ color: #fb8500;
 }
 .btn-2:hover,
 .btn-2:active {
@@ -118,6 +118,15 @@ h3 {
     width: auto;
     float: left;
     margin-top: 1rem;
+}
+.logo-black {
+    display: none;
+    height: 2.5em;
+    width: auto;
+    float: left;
+    margin-top: .2rem;
+    margin-bottom: .2rem;
+    cursor: pointer;
 }
 .main-nav {
     float: right;
@@ -139,7 +148,34 @@ h3 {
 }
 .main-nav li a:hover,
 .main-nav li a:active {
-    border-bottom: 2px solid #fb8500;
+    border-bottom: 3px solid #fb8500;
+}
+/*----------- sticky navigation -------*/
+.sticky {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #edf2f4;
+    box-shadow: 0 2px 15px #fb8500;
+    z-index: 9999;
+}
+.sticky .logo-black {
+    display: block;
+}
+.sticky .logo {
+    display: none;
+}
+.sticky .main-nav li a:link,
+.sticky .main-nav li a:visited {
+    color: #555;
+    padding: .4rem 0;
+    font-size: 1.0em;
+}
+.sticky .main-nav {
+    float: right;
+    margin-top: 20px;
+    font-weight: 400;
 }
 /*----------------------------*/
 /*----------- paragraphs ----------*/
@@ -379,6 +415,7 @@ input[type=submit]
 {
     font-size: 1em;
     padding: 2% 6%;
+    cursor: pointer;
 }
 textarea{
     height: 100px;
