@@ -465,3 +465,15 @@ footer p{
     font-size: 90%;
     text-align: center;
 }
+
+/*------- animations -----------*/
+.row .box,
+.js--wp-6 {
+    opacity: 0;
+    animation-duration: .7s;
+}
+.row .animate__bounceInLeft,
+.row .animate__bounceInRight,
+.steps-box .animate__fadeInUp{
+    opacity: 1;
+}
