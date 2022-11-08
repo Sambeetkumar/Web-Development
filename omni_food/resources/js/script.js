@@ -93,4 +93,23 @@ $(document).ready(function () {
      $('.js--wp-6').removeClass('animate__animated animate__fadeInUp');
     }
   }, { offset: "50%" });
+  /*--------- responsive navigation --------*/
+
+
+  $('.js--nav-icon').click(function () {
+  let nav = $('.js--main-nav')
+  let icon = $('.nav-icon')
+
+   nav.slideToggle(200);
+   if (icon.hasClass('icon1')) {
+    icon.removeClass('icon1');
+    icon.removeAttr('name');
+    icon.attr('name','close');
+   }
+   else {
+    icon.addClass('icon1');
+    icon.removeAttr('name');
+    icon.attr('name','menu');
+   }
+  });
 });

@@ -4,6 +4,8 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description"
+        content="Omni Food is a premium food delivery service with the mission to bring affordable and healthy meals to as many people as possible.">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -12,10 +14,19 @@
     <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,300&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="resources/css/style.css">
-    <link rel="stylesheet" href="vendors/css/1.3 grid.css.css">
+    <link rel="stylesheet" href="vendors/css/grid.css">
     <link rel="stylesheet" href="resources/css/queries.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
     <title>Omni-Food</title>
+    <link rel="apple-touch-icon" sizes="180x180" href="resources/favicons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="resources/favicons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="resources/favicons/favicon-16x16.png">
+    <link rel="manifest" href="resources/favicons/site.webmanifest">
+    <link rel="mask-icon" href="resources/favicons/safari-pinned-tab.svg" color="#5bbad5">
+    <link rel="shortcut icon" href="resources/favicons/favicon.ico">
+    <meta name="msapplication-TileColor" content="#00aba9">
+    <meta name="msapplication-config" content="resources/favicons/browserconfig.xml">
+    <meta name="theme-color" content="#333333">
 </head>
 
 <body>
@@ -24,12 +35,15 @@
             <div class="row">
                 <img src="resources/img/logo-white.png" alt="omni-food-logo" class="logo">
                 <img src="resources/img/logo.png" alt="omni-food-logo" class="logo-black js--logo">
-                <ul class="main-nav">
+                <ul class="main-nav js--main-nav">
                     <li><a href="#features" class="features">Food delivery</a></li>
                     <li><a href="#steps" class="steps">How it works</a></li>
                     <li><a href="#cities" class="cities">Our cities</a></li>
                     <li><a href="#plans" class="plans">Sign up</a></li>
                 </ul>
+                <a class="mobile-icon js--nav-icon">
+                    <ion-icon name="menu" class="nav-icon icon1"></ion-icon>
+                </a>
             </div>
         </nav>
         <div class="hero-text-box">
@@ -215,20 +229,20 @@
                 <blockquote>Omnifood is just awesome! I just launched a startup which leaves me with no time for
                     cooking, so Omnifood is a life-saver. Now that I got used to it, I couldn't live without my daily
                     meals!
-                    <cite><img src="resources/img/customer-1.jpg">Alberto Duncan</cite>
+                    <cite><img src="resources/img/customer-1.jpg" alt="Customer-1">Alberto Duncan</cite>
                 </blockquote>
             </div>
             <div class="col span-1-of-3">
                 <blockquote>Inexpensive, healthy and great-tasting meals, delivered right to my home. We have lots of
                     food delivery here in Lisbon, but no one comes even close to Omifood. Me and my family are so in
                     love!
-                    <cite><img src="resources/img/customer-2.jpg">Joana Silva</cite>
+                    <cite><img src="resources/img/customer-2.jpg" alt="Customer-2">Joana Silva</cite>
                 </blockquote>
             </div>
             <div class="col span-1-of-3">
                 <blockquote>I was looking for a quick and easy food delivery service in San Franciso. I tried a lot of
                     them and ended up with Omnifood. Best food delivery service in the Bay Area. Keep up the great work!
-                    <cite><img src="resources/img/customer-3.jpg">Milton Chapman</cite>
+                    <cite><img src="resources/img/customer-3.jpg" alt="Customer-3">Milton Chapman</cite>
                 </blockquote>
             </div>
         </div>
@@ -326,7 +340,6 @@
                 </div>
             </div>
         </div>
-        </div>
     </section>
     <section class="section-form">
         <div class="row">
@@ -386,7 +399,7 @@
                     <div class="col span-2-of-3">
                         <input type="submit" name="submit" class="btn btn-1 x" value="send it">
                     </div>
-                 </div>   
+                </div>
             </form>
         </div>
     </section>
@@ -403,10 +416,18 @@
             </div>
             <div class="col span-1-of-2">
                 <ul class="social-icons">
-                    <li><a href="#"><ion-icon name="logo-facebook" class="social"></ion-icon></a></li>
-                    <li><a href="#"><ion-icon name="logo-twitter" class="social"></ion-icon></a></li>
-                    <li><a href="#"><ion-icon name="logo-google" class="social"></ion-icon></a></li>
-                    <li><a href="#"><ion-icon name="logo-instagram" class="social"></ion-icon></a></li>
+                    <li><a href="#">
+                            <ion-icon name="logo-facebook" class="social"></ion-icon>
+                        </a></li>
+                    <li><a href="#">
+                            <ion-icon name="logo-twitter" class="social"></ion-icon>
+                        </a></li>
+                    <li><a href="#">
+                            <ion-icon name="logo-google" class="social"></ion-icon>
+                        </a></li>
+                    <li><a href="#">
+                            <ion-icon name="logo-instagram" class="social"></ion-icon>
+                        </a></li>
                 </ul>
             </div>
         </div>
