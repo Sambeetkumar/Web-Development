@@ -220,6 +220,19 @@ ion-icon {
 .social:hover{
     color: #fff;
 }
+/*----------------------------------*/
+/*------ mobile navigation icon ----*/
+/*---------------------------------*/
+.mobile-icon {
+    float: right;
+    padding-top: 20px;
+    padding-right: 3%;
+    cursor: pointer;
+    display: none;
+}
+.mobile-icon ion-icon {
+    font-size: 200%;
+}
 /*----------------------------*/
 /*----------- meals ----------*/
 /*----------------------------*/
