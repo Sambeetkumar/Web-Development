@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>innteractive javascript</title>
+    <script>
+        var question = 'what is 10+10 ?';
+        var answer = 20;
+        var correct = "<img src = 'img/img1.jpg' style ='width:100%; height:100vh;'/>";
+        var incorrect = "<img src = 'img/img2.jpg' style ='width:100%; height:100vh;'/>";
+        var response = prompt(question,"0");
+        for(count = 0; count <3; count++){
+            if(response != answer){
+                confirm("Wrong, press ok for another chance");
+                response = prompt(question,"0");
+                if(response != answer && count == 1){
+                    alert("Better luck next time");
+                }
+            }
+            else{
+                alert("Great! you are right");
+                count = 3;
+            }
+        }
+        var output = (response == answer) ? correct:incorrect;
+        document.write("<br/>");
+        document.write(output);
+    </script>
+</head>
+<body>
+</body>
+</html>
