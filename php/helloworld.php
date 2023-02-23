@@ -12,6 +12,7 @@
     $age = 20;
     echo"<p>name = $name</p>
     <p>age = $age</p>";
+    echo str_contains("hello world","world");
     ?>
 </body>
 </html>
